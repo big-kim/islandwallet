@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ic-wallet/ui": ["packages/ui/src"],
+      "@ic-wallet/sdk": ["packages/sdk/src"],
+      "@ic-wallet/contracts": ["packages/contracts/src"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
