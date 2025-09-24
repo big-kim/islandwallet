@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "IC Wallet",
+    "slug": "ic-wallet",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "sdkVersion": "51.0.0",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
